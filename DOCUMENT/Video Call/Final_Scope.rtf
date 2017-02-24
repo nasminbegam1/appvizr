@@ -1,0 +1,942 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red45\green101\blue22;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid402\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid501\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid6}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Short description
+\f1\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 The goal is to create an app the can connect two types of users (consultants and customers) with each other through video call or regular call. The calls (customer) will charged per minute for the consultant why a payment gateway integration is needed to Stripe or similar. A custom PHP-cloud based admin panel will handle all user management and payment.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 It is important to note that the app will have 2 independent logins and features for customers and consultants.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 The customers can find the consultant they are looking for through an advanced category and search structure. 
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 The app will use an external video call API which should be able to customize and suit the current specifications as well be scalable for future development. 
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 The developer will have access to video recordings of the current app in order to recreate to the current state.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 We will follow best practice and all code should be submitted to GitHub repository after each step is completed.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 NOTE: 
+\f1\b0\fs24 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 JIRA will be used as project management system. 
+\f1\fs24 \
+
+\f0\fs30 After each step the code should be submitted and reviewed on our GitHub account
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 Project phases and milestones
+\f1\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 (> \'a0= highlighted features)
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 1. Design 
+\f1\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 1.1 Developer will submit design suggestions / style sheets for the app. 
+\f1\fs24 \
+
+\f0\fs30 The design and UI/UX of the app is crucial and we expect high standards. We will have to revise until it is acceptable.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 The screen flow can be seen on the video recordings
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 2. App structure and flow \cf3 \strokec3 (completion of this triggers 1st milestone payment = 30 %)
+\f1\b0\fs24 \cf2 \strokec2 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 First build should be delivered here - with all the basic screens and design implemented. 
+\f1\fs24 \
+
+\f0\fs30 Refer to video recording as well as below listed features:
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 > 2 login screens - for customer and consultant (consultant login screen will be secondary and open up via link on the customer screen)
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 > Sign-up procedure - by e-mail or Facebook sign-up. 
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Sign-up with e-mail opens up a registration page, where users register with:
+\f1\fs24 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl400\partightenfactor0
+\ls1\ilvl0
+\f0\fs30 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 First name\uc0\u8232 \
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Last name\uc0\u8232 \
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 E-mail\uc0\u8232 \
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Phone number (country code+number) Country code is chosen from a drop down with country names\uc0\u8232 \
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Password (at least 8 digits incl both capital letters and numbers)\uc0\u8232 \
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Re-type password\uc0\u8232 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1\fs24 \cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Login procedure - login by mail or Facebook + resend/reset password
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 After registration an e-mail will be sent to the user\'92s address with a confirmation link. The account will be inactive until it has been confirmed by the user
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 NB. The app is using danish alphabet (including \'e6,\'f8,\'e5) and danish currency (DKK)
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 > Report feature, both consultant and customer can report each other from the app (with description) - this will notify admin (admin panel and mail notification).
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 2.1. Consultant
+\f1\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 After first time login all consultants must choose a category, subcategory and qualifications from drop down menus predefined in admin panel. It\'92s possible to chose one category, several subcategories and one qualification level. - 
+\b see also category/indexing structure in admin panel description
+\f1\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 > First screen (
+\b home screen
+\b0 ) after selecting qualifications is a home screen with overview of options by icons (refer to video recording as well)
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl400\partightenfactor0
+\ls2\ilvl0
+\f0\fs30 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 My profile\uc0\u8232 \
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Reports\uc0\u8232 \
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Call history\uc0\u8232 \
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Notifications\uc0\u8232 \
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Settings\uc0\u8232 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1\fs24 \cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Each icon leads to a new screen.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Consultant can switch between those screens by swiping or using a menu overview
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 2.1.1 My profile
+\f1\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 My profile is a screen where the user\'92s personal information are visible. There is a choice of four new screens
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl400\partightenfactor0
+\ls3\ilvl0
+\f0\fs30 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Personal information\uc0\u8232 \
+\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Credit/Debit credentials\uc0\u8232 \
+\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 My pricing\uc0\u8232 \
+\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Earning reports \uc0\u8232 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1\fs24 \cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 The consultant\'92s rating will be visible here. Rating is out of 5.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 This screen also has a home button which leads back to home screen and a sign-up button which leads to the log-in screen.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 2.1.1.1 Personal information
+\f1\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Shows the consultants personal information.
+\f1\fs24 \
+
+\f0\fs30 Information from facebook or entered while registration is autofilled in the correct cells whenever available.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 The information below is shown on this screen.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 The screen has a back button leading back to \'91my profile\'92 and an edit button.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 2.1.1.1.1 Edit profile
+\f1\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Consultants can edit the information by tapping \'93edit\'94 button.
+\f1\fs24 \
+
+\f0\fs30 Personal details include:
+\f1\fs24 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl400\partightenfactor0
+\ls4\ilvl0
+\f0\fs30 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Picture (Both option to take a picture or those from photo library-. The user must be able to crop picture)\uc0\u8232 \
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 First name\uc0\u8232 \
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Last name\uc0\u8232 \
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 City\uc0\u8232 \
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Country (chosen from drop down menu)\uc0\u8232 \
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 E-mail address\uc0\u8232 \
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Description\uc0\u8232 \
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Skills \uc0\u8232 \
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Category (dropdown with options predefined in admin panel)\uc0\u8232 \
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Subcategories (dropdown with options predefined in admin panel)\uc0\u8232 \
+\ls4\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Qualifications\uc0\u8232 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1\fs24 \cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 A \'91change password?\'92 button is on this screen.
+\f1\fs24 \
+
+\f0\fs30 There is a \'91back\'92 button leading to \'91personal information\'92 screen
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 2.1.1.2 Credit/Debit credentials
+\f1\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Two options to add Debit Card information or to add Credit card information. \uc0\u8232 Entering details of the card like card number, CVV, expiry date, name one can 'save' the card information.
+\f1\fs24 \
+
+\f0\fs30 There is a \'91back\'92 button leading to \'91my profile\'92 screen
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 2.1.1.3 My Pricing
+\f1\b0\fs24 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Shows consultants price tag per minute in DKK. The price can be edited in a range from 1-30 DKK
+\f1\fs24 \
+
+\f0\fs30 There is a \'91back\'92 button leading to \'91my profile\'92 screen
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 2.1.1.4 Earning reports
+\f1\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 The consultant will be able to see statistics of money earned in certain periods and other options - very basic
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 There is a \'91back\'92 button leading to \'91my profile\'92 screen
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 2.1.2 Call history
+\f1\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Consultant can see a list of calls and missed calls from customers. The listing will consist of boxes with each customer referenced by name, picture, time of call, length of call and current online status. Consultant can call a customer back within 30 minutes of the original call.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 This screen has a home button which leads back to home screen
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 2.1.3 Notifications
+\f1\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Admin can push notifications or messages from admin panel to the app users (individuals, selection or all)
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 User will automatically receive notifications when new version upgrades available
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 This screen has a home button which leads back to home screen
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 2.1.4 Settings
+\f1\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Includes help, options, TOS, privacy ect.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 This screen has a home button which leads back to home screen
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\
+\
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 2.2. Customer
+\f1\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 > Home screen with search functionality / category selection (overview) / settings tab
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 > Search function will work intelligently and suggest misspelling and alternatives. The search will search on both categories and sub-categories and name, first + last.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Alternative suggestive or similar search phrases will be shown in case of 0 results. 
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\i\fs30 \cf2 Please ask for more details or questions in regards to search.
+\f1\i0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2  > Category button will lead to new screen with different categories listed. User can click a category which will then to sub-categories and qualifications (note, all details, name, pictures, can be edited by admin backend). Note that qualifications will be the same cross categories.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Refer to video recording for UX - eg., user can select a certain type of qualification or \'91show all\'92.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 > \'91Settings\'92 will open a slide-in menu with the following:
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Name of user + picture
+\f1\fs24 \
+
+\f0\fs30 Options:
+\f1\fs24 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl400\partightenfactor0
+\ls5\ilvl0
+\f0\fs30 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Consultants - (will show list of all consultants)\uc0\u8232 \
+\ls5\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 My profile -> \uc0\u8232 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sl400\partightenfactor0
+\ls5\ilvl1\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 personal information (edit personal information for user, name, city, country (dropdown) \'a0e-mail, description and change password\uc0\u8232 \
+\ls5\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Credit/Debit credentials (user will enter credit card info used for payment, can enter and select several cards, but have to select 1 as primary payment\uc0\u8232 \
+\ls5\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Expenses (show history of spent money)\uc0\u8232 \
+\ls5\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Call history\uc0\u8232 \
+\pard\pardeftab720\sl400\partightenfactor0
+\cf2 - Favorites (show user\'92s selected favorite consultants). Information and call option is available here, just like in the consultant overview screen.
+\f1\fs24 \
+
+\f0\fs30 - Notifications
+\f1\fs24 \
+
+\f0\fs30 - Settings -> Help /TOS/ Privacy
+\f1\fs24 \
+
+\f0\fs30 - Log-out
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\i\fs30 \cf2 Note how the \'91Settings\'92 button, search and Home button is implemented on different screens and the design in general.
+\f1\i0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 > Consultant overview
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Based on user selection an overview of matching or all consultants will be shown
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 The listing will consist of boxes with each consultant that contain:
+\f1\fs24 \
+
+\f0\fs30 Name
+\f1\fs24 \
+
+\f0\fs30 Sub-qualification
+\f1\fs24 \
+
+\f0\fs30 Online/offline status
+\f1\fs24 \
+
+\f0\fs30 Snippet of description
+\f1\fs24 \
+
+\f0\fs30 Rating
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 When you click any box for a consultant a new screen will open up with more details:
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Full description
+\f1\fs24 \
+
+\f0\fs30 Joined date
+\f1\fs24 \
+
+\f0\fs30 Categories
+\f1\fs24 \
+
+\f0\fs30 Subcategories
+\f1\fs24 \
+
+\f0\fs30 Qualification
+\f1\fs24 \
+
+\f0\fs30 Call button
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 >>> The customer can CALL the consultant (only if the consultant is online) from here or add to favorites. A consultant is also online, if app is open in background.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 > Filter/sort
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 From the overview of consultants the customer can filter/sort the results (see how it is integrated in Airbnb app for reference)
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 User can filter from:
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Categories
+\f1\fs24 \
+
+\f0\fs30 Subcategories
+\f1\fs24 \
+
+\f0\fs30 Qualifications 
+\f1\fs24 \
+
+\f0\fs30 Rating (1-5)
+\f1\fs24 \
+
+\f0\fs30 Price range (1-30)
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\
+\
+\
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 3. Admin panel and notification system + double rating system \cf3 \strokec3 (completion of this triggers 2nd milestone payment of 20 %)
+\f1\b0\fs24 \cf2 \strokec2 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Admin panel should be a custom developed PHP framework and cloud based. 
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Design sheet should be integrated so it looks good as well - we can use something like this for design http://coderthemes.com/velonic_wb_3/frontend/
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Admin panel will serve as a full user and app management for admin.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\i\fs30 \cf2 Most important features:
+\f1\i0\fs24 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Overview / search of all users, both consultants and customers
+\f1\fs24 \
+
+\f0\fs30 Online offline status
+\f1\fs24 \
+
+\f0\fs30 Block or delete users. Blocking will send notification to user and instantly logout the user
+\f1\fs24 \
+
+\f0\fs30 Member since
+\f1\fs24 \
+
+\f0\fs30 Signup type
+\f1\fs24 \
+
+\f0\fs30 Status - active / blocked
+\f1\fs24 \
+
+\f0\fs30 Admin can edit ALL details for the user, including pictures, text, qualifications etc 
+\f1\fs24 \
+
+\f0\fs30 Usage - admin can see detailed usage information for users, example, who they called, when, how long, how much the call cost etc. 
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 > Overview/reports of the general usage and activity of the app
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 -> Admin can export ALL details (sorting before the export: how many included in the export (select or all) and what details to include in the export / CSV file)
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 > Payment management - distributing payment from the app to the users, see history etc. This should be only implemented as \'91shell\'92 in this phase - the actual features will be implemented in phase 2, \'91payment gateway integration\'92.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 > Manage app / categories
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Admin can manage all categories, sub-categories and qualifications from the admin panel and push through to the app. 
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\i\fs30 \cf2 Structure:
+\f1\i0\fs24 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Categories
+\f1\fs24 \
+
+\f0\fs30 Sub-categories
+\f1\fs24 \
+
+\f0\fs30 Qualifications 
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Admin can change/add names and possibly picture for the categories.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 This should be done in a logical and easily usable way, as we will have to add and edit many categories etc. We have to specifically accept how it works.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 > Notifications
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Admin can push notifications or messages from admin panel to the app users (individuals, selection or all)
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 User will automatically receive notifications when new version upgrades available
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 > \'91Double rating system\'92
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Rating system can be managed and monitored through the admin panel. 
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 The rating double rating system should be implemented to the app in this step as well. It works like this:
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl400\partightenfactor0
+\ls6\ilvl0
+\f0\fs30 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 After a call has ended with a consultant the customer have to rate the consultant from 1-5 stars, with optional note\uc0\u8232 \
+\ls6\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 2 weeks after the call was ended the user will receive a mail to rate again based on that call, in case the experience has changed. \uc0\u8232 \
+\pard\pardeftab720\sl400\partightenfactor0
+\cf2 \uc0\u8232 Rating will then be added to the consultant\'92s overall rating score. The second rating will be added to the consultants rating, but if the customer doesn\'92t rate the second time, the first rating will be added to the consultant instead. 
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 A simple algorithm will notify admin if a consultant receives 3 \'911 star\'92 ratings within a month. 
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\
+\
+\
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 4. Video call integration with advanced features\cf3 \strokec3  (completion of this triggers 3rd milestone payment of 30 %)
+\f1\b0\fs24 \cf2 \strokec2 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 The video call API should be highly scalable and customizable with end-to-end encryption. It can be either paid or free api, the most important thing is that we agree on which beforehand and it will meet our requirements.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 A call can be initiated from the customer to the consultant, but the consultant can call back to the customer as well.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Payment approval will automatically be sent to the customer after 60 seconds after the call is intiated as a pop-up - if the customer doesn\'92t accept or ar inactive the call will end (60 second further delay) Consultant can push payment approval earlier than after 60 seconds as well.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Payment will start after approval from the customer and be completed after the call is ended \'96 eg. Duration of the call after payment approval is 12 minutes and 36 seconds, the customer will then be charged for 12:36.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 After 1 hour call the call will be paused and the customer will have to accept to continue the call for security reasons
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Pre-authorization \'96 if the customer is using a debit call, 60 minutes x FEE will be pre-authorized on his card
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 When the call ends the customer must rate the consultant from 1-5 stars - see description of double rating system above.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 Note - Customer only have the possibility to phone a consultant after his card has been approved. If not, he can just scroll and use the app, but not call.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 General call features:
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 User can connect/call with consultants via normal call or video call
+\f1\fs24 \
+
+\f0\fs30 Text/chat
+\f1\fs24 \
+
+\f0\fs30 Users can flip camera, front or back or show screen
+\f1\fs24 \
+
+\f0\fs30 Timer
+\f1\fs24 \
+
+\f0\fs30 End call
+\f1\fs24 \
+
+\f0\fs30 Mute
+\f1\fs24 \
+
+\f0\fs30 Pause call (timer stops, can only be done for 5 minutes maximum)
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 5. Remaining features and testing of version before proceeding to phase 2\cf3 \strokec3  (completion of this triggers 3rd milestone payment of 20 %)
+\f1\b0\fs24 \cf2 \strokec2 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\fs30 \cf2 All features should work after this step concluding phase 1 - including all bug fixes and design in general if anything has changed during the process or not been possible to design in step 1 due to the development of the app.
+\f1\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\
+\
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf3 \strokec3 -------------
+\f1\b0\fs24 \cf2 \strokec2 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf3 \strokec3 After above is completed we will continue with phase 2 and discus budget beforehand.
+\f1\b0\fs24 \cf2 \strokec2 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f0\b\fs30 \cf2 6. Payment gateway integration
+\f1\b0\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+}

@@ -1,0 +1,162 @@
+2016-10-27 11:48:04 [182.76.5.190][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/appvizr/vendor/yiisoft/yii2/web/Request.php:189
+Stack trace:
+#0 /var/www/html/appvizr/vendor/yiisoft/yii2/web/Application.php(78): yii\web\Request->resolve()
+#1 /var/www/html/appvizr/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/appvizr/api/index.php(19): yii\base\Application->run()
+#3 {main}
+2016-10-27 11:48:04 [182.76.5.190][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 182.76.5.190
+2016-10-27 11:48:04 [182.76.5.190][-][-][info][application] $_SERVER = [
+    'USER' => 'developer'
+    'HOME' => '/home/developer'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_HANDLER' => 'php5-fcgi'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '182.73.137.51'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ID' => '5'
+    'HTTP_POSTMAN_TOKEN' => 'fcaafd50-c379-d0e1-f070-f7fb4932b7b0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 182.73.137.51 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '182.73.137.51'
+    'SERVER_ADDR' => '192.168.2.60'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '182.76.5.190'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/php5-fcgi'
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/lib/cgi-bin/php5-fcgi'
+    'SERVER_ADMIN' => 'systemadmin@webskitters.com'
+    'SCRIPT_FILENAME' => '/var/www/html/appvizr/api/index.php'
+    'REMOTE_PORT' => '33944'
+    'REDIRECT_URL' => '/appvizr/api/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/appvizr/api/v1/consultants/'
+    'SCRIPT_NAME' => '/appvizr/api/index.php'
+    'ORIG_SCRIPT_FILENAME' => '/usr/lib/cgi-bin/php5-fcgi'
+    'ORIG_PATH_INFO' => '/appvizr/api/index.php'
+    'ORIG_PATH_TRANSLATED' => '/var/www/html/appvizr/api/index.php'
+    'ORIG_SCRIPT_NAME' => '/php5-fcgi'
+    'PHP_SELF' => '/appvizr/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1477568884.1641
+    'REQUEST_TIME' => 1477568884
+]
+2016-10-27 11:48:16 [182.76.5.190][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/appvizr/vendor/yiisoft/yii2/web/Request.php:189
+Stack trace:
+#0 /var/www/html/appvizr/vendor/yiisoft/yii2/web/Application.php(78): yii\web\Request->resolve()
+#1 /var/www/html/appvizr/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/appvizr/api/index.php(19): yii\base\Application->run()
+#3 {main}
+2016-10-27 11:48:16 [182.76.5.190][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 182.76.5.190
+2016-10-27 11:48:16 [182.76.5.190][-][-][info][application] $_SERVER = [
+    'USER' => 'developer'
+    'HOME' => '/home/developer'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_HANDLER' => 'php5-fcgi'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '182.73.137.51'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '344'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryhB0va42O3YGIT3jn'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ID' => '5'
+    'HTTP_POSTMAN_TOKEN' => 'd00edf58-d83f-e81a-db78-bfca412dd815'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 182.73.137.51 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '182.73.137.51'
+    'SERVER_ADDR' => '192.168.2.60'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '182.76.5.190'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/php5-fcgi'
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/lib/cgi-bin/php5-fcgi'
+    'SERVER_ADMIN' => 'systemadmin@webskitters.com'
+    'SCRIPT_FILENAME' => '/var/www/html/appvizr/api/index.php'
+    'REMOTE_PORT' => '34851'
+    'REDIRECT_URL' => '/appvizr/api/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'PUT'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/appvizr/api/v1/consultants/'
+    'SCRIPT_NAME' => '/appvizr/api/index.php'
+    'ORIG_SCRIPT_FILENAME' => '/usr/lib/cgi-bin/php5-fcgi'
+    'ORIG_PATH_INFO' => '/appvizr/api/index.php'
+    'ORIG_PATH_TRANSLATED' => '/var/www/html/appvizr/api/index.php'
+    'ORIG_SCRIPT_NAME' => '/php5-fcgi'
+    'PHP_SELF' => '/appvizr/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1477568896.415
+    'REQUEST_TIME' => 1477568896
+]
+2016-10-27 11:48:33 [182.76.5.190][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/appvizr/vendor/yiisoft/yii2/web/Request.php:189
+Stack trace:
+#0 /var/www/html/appvizr/vendor/yiisoft/yii2/web/Application.php(78): yii\web\Request->resolve()
+#1 /var/www/html/appvizr/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/appvizr/api/index.php(19): yii\base\Application->run()
+#3 {main}
+2016-10-27 11:48:33 [182.76.5.190][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 182.76.5.190
+2016-10-27 11:48:33 [182.76.5.190][-][-][info][application] $_SERVER = [
+    'USER' => 'developer'
+    'HOME' => '/home/developer'
+    'FCGI_ROLE' => 'RESPONDER'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_HANDLER' => 'php5-fcgi'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '182.73.137.51'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ID' => '5'
+    'HTTP_POSTMAN_TOKEN' => '9cdb754f-f2b0-4d7c-ed3e-d45ec40d7467'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at 182.73.137.51 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => '182.73.137.51'
+    'SERVER_ADDR' => '192.168.2.60'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '182.76.5.190'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => '/php5-fcgi'
+    'CONTEXT_DOCUMENT_ROOT' => '/usr/lib/cgi-bin/php5-fcgi'
+    'SERVER_ADMIN' => 'systemadmin@webskitters.com'
+    'SCRIPT_FILENAME' => '/var/www/html/appvizr/api/index.php'
+    'REMOTE_PORT' => '36097'
+    'REDIRECT_URL' => '/appvizr/api/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/appvizr/api/v1/consultants/'
+    'SCRIPT_NAME' => '/appvizr/api/index.php'
+    'ORIG_SCRIPT_FILENAME' => '/usr/lib/cgi-bin/php5-fcgi'
+    'ORIG_PATH_INFO' => '/appvizr/api/index.php'
+    'ORIG_PATH_TRANSLATED' => '/var/www/html/appvizr/api/index.php'
+    'ORIG_SCRIPT_NAME' => '/php5-fcgi'
+    'PHP_SELF' => '/appvizr/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1477568913.344
+    'REQUEST_TIME' => 1477568913
+]

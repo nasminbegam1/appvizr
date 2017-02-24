@@ -1,0 +1,59 @@
+.table-bordered td input{border: 1px solid #aaa;}
+.portlet-body .summary{margin-bottom: 10px;}
+.portlet-body table th{font-size: 14px;}
+.table-bordered.detail-view{margin-top:20px;}
+.table-bordered.detail-view th{color: #666;}
+.table-bordered.detail-view td{text-align: left; padding: 10px; color: #666;}
+.table-striped.table-bordered tr td:last-child{/*width: 10%;*/ border-color:#ddd;}
+.icon-view tr td:last-child{width: 10%;}
+.col-separate .form-group {float: left; width: 48%; margin: 0 1%;}
+.clear:after{position: relative; clear: both; display: block; content: "";}
+.col-separate{margin-bottom: 5px;}
+.col-separate label{margin-bottom: 10px;}
+
+ #flashmessage {
+    border-bottom: 1px solid;
+    color: white;
+    font-size: 15px;
+    left: 0;
+    overflow: visible;
+    padding: 15px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 10001;
+}
+.page_mess_animate {
+    animation: 3s linear 0s normal none infinite running animate-bg;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.05) 75%, transparent 75%, transparent);
+    background-size: 10px 10px;
+}
+.page_mess_ok {
+    background-color: #48bb5e;
+    border-color: #38984b;
+}
+.page_mess_error {
+    background-color: #de4343;
+    border-color: #ca2424;
+}
+
+/*---- 30.08.16 ----*/
+
+.page-header-topbar .navbar-static-top #logo.navbar-brand {  padding: 6px 0 6px 30px;  text-align: left;} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
